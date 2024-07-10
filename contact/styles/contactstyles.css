@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.header {
+    backdrop-filter: blur(3px);
+    position: fixed;
+    background-color: rgba(128, 128, 128, 0.750);
+    padding: 20px 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+
+    position: relative;
+    font-family: monospace;
+    font-size: 35px;
+    right: 50px;
+}
+
+.logo-home-link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-bar {
+    font-weight: lighter;
+}
+
+.nav-bar-items {
+    display: flex;
+    font-family: cursive;
+    gap: 90px;
+    font-size: 20px;
+}
+
+.home {
+    transition: 3ms;
+}
+
+.home:hover {
+    text-shadow: -4px 0px 7px black;
+}
+
+.home-link {
+    text-decoration: none;
+    color: snow;
+
+}
+
+.about {
+    transition: 3ms;
+}
+
+.about:hover {
+    text-shadow: -4px 0px 7px black;
+}
+
+.about-link {
+    text-decoration: none;
+    color: snow;
+
+}
+
+.portfolio {
+    transition: 3ms;
+}
+
+.portfolio:hover {
+
+    text-shadow: -4px 0px 7px black;
+
+}
+
+.portfolio-link {
+    text-decoration: none;
+    color: snow;
+
+}
+
+.contact {
+    transition: 3ms;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: snow;
+
+}
+
+.contact:hover {
+    text-shadow: -4px 0px 7px black;
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 150px 150px 30px 150px;
+    gap: 70px;
+
+}
+
+.contact-header {
+    font-size: 80px;
+    font-family: 'Courier New';
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px white;
+}
+
+.contact-form {
+    background-color: whitesmoke;
+    width: 600px;
+    height: 525px;
+    padding: 80px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+[type='text'] {
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+[type='text']::placeholder {
+    font-family: Verdana ;
+    color: #ababab;
+}
+
+[type='email']::placeholder {
+    text-indent: 10px;
+    font-size: 15px;
+    font-family: Verdana;
+    color: #ababab ;
+}
+
+.form-inputs1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.username {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.form-inputs2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    gap: 30px;
+   
+}
+
+.ph-no {
+ border-radius: 5px ;
+    width: 200px;
+    height: 40px;
+}
+
+.email {
+    border-radius: 5px ;
+    height: 40px;
+    width: 200px;
+}
+
+.message {
+    
+    border-radius: 5px;
+    margin: 55px;
+
+    width: 400px;
+    height: 100px;
+}
+
+.submit {
+
+    margin: 10px 130px;
+    border-radius: 25px;
+    width: 50%;
+    height: 40px;
+    font-family: cursive ;
+    font-size: 25px;
+    transition: 0.3s;
+    background-color:#ababab ;
+}
+
+.submit:hover {
+    background-color:black;
+    color:white;
+    box-shadow: 2px 2px 10px black;
+    transform: scale(1.05);
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    position: relative;
+    top: 30px;
+    height: 150px;
+    padding: 45px;
+    background-color: #e0006cd5;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}

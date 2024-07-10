@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.header {
+    position: fixed;
+    backdrop-filter: blur(3px);
+    background-color: rgba(128, 128, 128, 0.750);
+    padding: 20px 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+
+    position: relative;
+    font-family: monospace;
+    font-size: 35px;
+    right: 50px;
+}
+
+.logo-home-link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-bar {
+    font-weight: lighter;
+}
+
+.nav-bar-items {
+    display: flex;
+    font-family: cursive;
+    gap: 90px;
+    font-size: 20px;
+}
+
+.home {
+    transition: 3ms;
+}
+
+.home:hover {
+
+    text-shadow: -4px 0px 7px black;
+}
+
+.home-link {
+    text-decoration: none;
+    color: snow;
+
+}
+
+.about {
+    transition: 3ms;
+}
+
+.about:hover {
+
+    text-shadow: -4px 0px 7px black;
+}
+
+.about-link {
+    text-decoration: none;
+    color: snow;
+
+}
+
+.portfolio {
+    transition: 3ms;
+}
+
+.portfolio:hover {
+
+    text-shadow: -4px 0px 7px black;
+
+}
+
+.portfolio-link {
+    text-decoration: none;
+    color: snow;
+
+}
+
+.contact {
+    transition: 3ms;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: snow;
+
+}
+
+.contact:hover {
+
+    text-shadow: -4px 0px 7px black;
+}
+
+.hero-section {
+    font-family: 'serif';
+    position: relative;
+    top: 150px;
+    left: 30px;
+    width: 110vh;
+    text-align: justify;
+    font-weight: 400;
+}
+
+#para1 {
+    color: rgb(66, 18, 90) ;
+    font-weight: 450;
+    position: absolute;
+    font-size: 20px;
+    width: 80vh;
+    top: 100px;
+}
+
+#para2 {
+    color: rgb(1, 71, 1);
+    font-weight: 450;
+    position: absolute;
+    font-size: 20px;
+    width: 80vh;
+    top: 550px;
+    left: 850px;
+}
+
+.images {
+    position: relative;
+    top: 210px;
+    left: 100vh;
+    width: 70vh;
+    height: 160vh;
+}
+
+#image1 {
+    border-radius: 2%;
+    position: absolute;
+    width: 750px;
+    height: 60vh;
+
+}
+
+#image2 {
+    border-radius: 5%;
+    position: absolute;
+    right: 500px;
+    width: 650px;
+    top: 450px;
+    height: 60vh;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+    font-weight: 100;
+    position: relative;
+    top: 156px;
+    padding: 20px;
+    background-color: #862b57;
+    color: rgb(255, 242, 242);
+}
+
+.footer-link {
+    color: gray;
+}
